@@ -78,7 +78,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		case "sarkaar", "sarkar", "sarrkar", "sarrkaar":
 			message = "Namskaaaaaaaaar Sarkaaaaaaaar"
 		default:
-			message = "Tumhi amche sarkaar nahit, he greeting tumchyasathi nahi. 🙅‍♂️"
+			message = "He Sarkaransathi Ahee, Tumchyasathi nahi. 🙅‍♂️"
 		}
 
 		tmpl.Execute(w, map[string]string{"Message": message})
